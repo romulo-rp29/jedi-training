@@ -1,0 +1,41 @@
+* {
+      border-radius: 100%;
+    }
+    .trybe_link{
+      color: seagreen;
+    }
+    .thumbnail{
+    display: none;
+    }
+    header{
+    background-color: transparent;
+    background-image: url();
+    }
+    body{
+      background-image: url("imagens/background_texture.png");
+      background-color: black;
+      color: rgb(255, 230, 0);
+      font-family: 'Shippori Antique', sans-serif;;
+      text-align:center;
+    }
+    li, p{
+      color: orangered;
+      font-weight: 700;
+    }
+    a{
+      color: firebrick;
+    }
+    h1, h2, h3{
+      color: gold;
+      font-weight: 300;
+    }
+    h3{
+      font-size: 20 px;
+      font-weight: 600;
+    }
+    span{
+      color:orangered;
+      font-style: italic;
+      font-weight: 600;
+    }
+}
