@@ -1,15 +1,15 @@
 * {
-      border-radius: 100%;
     }
     .trybe_link{
       color: seagreen;
     }
     .thumbnail{
-    display: none;
+        display: none;
     }
-    header{
-    background-color: transparent;
-    background-image: url();
+    .cabecalho{
+    background-color: black;
+    background-image: none;
+    position: fixed;
     }
     body{
       background-image: url("imagens/background_texture.png");
@@ -18,23 +18,38 @@
       font-family: 'Shippori Antique', sans-serif;;
       text-align:center;
     }
+
+    .skills{
+    color: orangered;
+    line-height: 25px;
+    }
+    
+    .fotoApresentacao{
+        border-radius: 100%;
+    }
     li, p{
       color: orangered;
       font-weight: 700;
     }
+
     a{
       color: firebrick;
+      line-height: 25px;
     }
+
     h1, h2, h3{
       color: gold;
       font-weight: 300;
     }
+
     h3{
       font-size: 20 px;
       font-weight: 600;
     }
+
     span{
       color:orangered;
       font-style: italic;
       font-weight: 600;
     }
+
