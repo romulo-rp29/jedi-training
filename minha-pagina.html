@@ -5,19 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <img src="" width="">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+    
+    .bg{
+      background-image: url("imagens/background_texture.png");
+    }
+    .fotoApresentacao{
+      border-radius: 100%;
+    }
+    body{
+      background-color: black;
+      color: rgb(255, 230, 0);
+      font-family: 'Shippori Antique', sans-serif;;
+    }
+    a, li{
+      color: orangered;
+      font-weight: 700;
+    }
+    h1, h2{
+      color: rgb(255, 230, 0);
+      font-weight: 300;
+    }
+    h3{
+      font-size: 20 px;
+      font-weight: 600;
+    }
+    span{
+      color:orangered;
+      font-style: italic;
+      font-weight: 600;
+    }
+  </style>
 </head>
-<body>
+<body class="bg">
   <header>
-    <h1>Minha página Web!</h1>
+    <h1> < web developer pupil portfolio /> </h1>
   </header>
-  <h2>Bem vindos! Essa é a estrutura básica da minha primeira página.</h2> <img src="imagens/IMG-1542.jpg"
-  width="300">
-  <p>O que estou aprendendo:<p>
+  <h2> < welcome to the <span>dev side</span> of the force! this is my very first html based webpage. /> </h2>
+  <img class="fotoApresentacao" src="imagens/IMG-1542.jpg"
+  width="300" alt="Rômulo com seu cachorro Yoda no colo" >
+  <h3><img src="imagens/emoji_yoda.png"width="30px"> < what im learning /> </h3>
     <li>Git & GitHub</li>
     <li>Internet</li>
     <li>Shell</li>
     <li>HTML</li>
-    <p>Essas são as minhas páginas profissionais:</p>
+    <h3> <img src="imagens/emoji_boba_fett_helmet.png"width="25px"> < presenting my professional networks /> </h3>
     <li><a href="https://www.linkedin.com/in/romulo-rp/" target="_blank">LinkedIn</a></li>
     <li><a href="https://github.com/romulo-rp29" target="_blank">GitHub</a></li>
   </ul>
