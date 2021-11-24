@@ -9,7 +9,6 @@
     .cabecalho{
     background-color: black;
     background-image: none;
-    position: fixed;
     }
     body{
       background-image: url("imagens/background_texture.png");
