@@ -7,8 +7,7 @@
         display: none;
     }
     .cabecalho{
-    background-color: black;
-    background-image: none;
+        
     }
     body{
       background-image: url("imagens/background_texture.png");
