@@ -1,32 +1,32 @@
-* {
-    }
-    .trybe_link{
-      color: seagreen;
-    }
-    .thumbnail{
-        display: none;
-    }
-    .cabecalho{
-    background-color: black;
-    background-image: none;
-    position: fixed;
-    }
-    body{
-      background-image: url("imagens/background_texture.png");
-      background-color: black;
-      color: rgb(255, 230, 0);
-      font-family: 'Shippori Antique', sans-serif;;
-      text-align:center;
-    }
 
-    .skills{
-    color: orangered;
-    line-height: 25px;
+.trybe_link{
+  color: seagreen;
     }
-    
-    .fotoApresentacao{
-        border-radius: 100%;
-    }
+.title{
+  text-align: center;
+}
+.presentation{
+  text-align:center;
+
+}
+.corpse{
+  color: rgb(255, 230, 0);
+  text-align:center;
+}
+
+.fotoApresentacao{
+  border-radius: 100%;
+}
+.footer{
+
+  color: rgb(255, 230, 0);
+  text-align:center;
+  
+}
+body{
+  font-family: 'Shippori Antique', sans-serif;
+  background-image: url(imagens/background_texture.png) ;
+}
     li, p{
       color: orangered;
       font-weight: 700;
