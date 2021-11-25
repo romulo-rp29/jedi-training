@@ -1,28 +1,3 @@
-
-.trybe_link{
-  color: seagreen;
-    }
-.title{
-  text-align: center;
-}
-.presentation{
-  text-align:center;
-
-}
-.corpse{
-  color: rgb(255, 230, 0);
-  text-align:center;
-}
-
-.fotoApresentacao{
-  border-radius: 100%;
-}
-.footer{
-
-  color: rgb(255, 230, 0);
-  text-align:center;
-  
-}
 body{
   font-family: 'Shippori Antique', sans-serif;
   background-image: url(imagens/background_texture.png) ;
@@ -53,3 +28,32 @@ body{
       font-weight: 600;
     }
 
+    header{
+      text-align: center;
+    }
+    
+    .trybe_link{
+      color: seagreen;
+        }
+    
+    .presentation{
+      text-align:center;
+    
+    }
+    .skills{
+      color: rgb(255, 230, 0);
+      text-align:center;
+    }
+    .prof_net{
+      color: rgb(255, 230, 0);
+      text-align:center;
+    
+    }
+    .fotoApresentacao{
+      border-radius: 100%;
+    }
+
+footer{
+  color: rgb(255, 230, 0);
+  text-align:center;
+}
