@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-=======
-* {
-    }
-    .trybe_link{
-      color: seagreen;
-    }
-    .thumbnail{
-        display: none;
-    }
-    .cabecalho{
-        
-    }
-    body{
-      background-image: url("imagens/background_texture.png");
-      background-color: black;
-      color: rgb(255, 230, 0);
-      font-family: 'Shippori Antique', sans-serif;;
-      text-align:center;
-    }
->>>>>>> 0e92e80eabac3325651c29d631a6160cebfa4fd7
 
 .trybe_link{
   color: seagreen;
