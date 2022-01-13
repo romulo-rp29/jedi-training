@@ -45,3 +45,35 @@
   figcaption {
     font-size: .8em;
   }
+
+  @media screen and (min-width: 320px) and (max-width: 414px){
+      article {
+          font-size: 24px;
+      } 
+      header h1 {
+        font-size: 24px;
+        }
+      section picture {
+          display: flex;
+          justify-content: space-evenly;
+      }
+      body {
+          margin: 10%;
+      }
+  }
+
+  @media screen and (min-width: 415px) and (max-width: 767px){
+    article {
+        font-size: 24px;
+    } 
+    header h1 {
+      font-size: 24px;
+      }
+    section picture {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    body {
+        margin: 10%;
+    }
+}
